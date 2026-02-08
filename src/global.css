@@ -1,0 +1,122 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Core Theme Mapping (Removed HSL wrapper for Hex compatibility) */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Sidebar Theme Mapping */
+  --color-sidebar-background: var(--sidebar-background);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px); */
+}
+
+@layer base {
+  :root {
+    --background: #0f172a;
+    --foreground: #f1f5f9;
+    --card: #171e2e;
+    --card-foreground: #f1f5f9;
+    --popover: #171e2e;
+    --popover-foreground: #f1f5f9;
+    --primary: #7c3aed; /* Vibrant Purple */
+    --primary-foreground: #f8fafc;
+    --secondary: #00f2ff; /* Vibrant Cyan */
+    --secondary-foreground: #0f172a;
+    --muted: #525e7a;
+    --muted-foreground: #adb9cc;
+    --accent: #7c3aed;
+    --accent-foreground: #f8fafc;
+    --destructive: #ef4444;
+    --destructive-foreground: #f8fafc;
+    --border: #273048;
+    --input: #1f273b;
+    --ring: #7c3aed;
+    --sidebar-background: #0f172a;
+    --sidebar-foreground: #f1f5f9;
+    --sidebar-primary: #7c3aed;
+    --sidebar-primary-foreground: #f8fafc;
+    --sidebar-accent: #00f2ff;
+    --sidebar-accent-foreground: #0f172a;
+    --sidebar-border: #273048;
+    --sidebar-ring: #7c3aed;
+  }
+
+  .dark {
+    --background: #0f172a;
+    --foreground: #f1f5f9;
+    --card: #171e2e;
+    --card-foreground: #f1f5f9;
+    --popover: #171e2e;
+    --popover-foreground: #f1f5f9;
+    --primary: #7c3aed; /* Vibrant Purple */
+    --primary-foreground: #f8fafc;
+    --secondary: #00f2ff; /* Vibrant Cyan */
+    --secondary-foreground: #0f172a;
+    --muted: #525e7a;
+    --muted-foreground: #adb9cc;
+    --accent: #7c3aed;
+    --accent-foreground: #f8fafc;
+    --destructive: #ef4444;
+    --destructive-foreground: #f8fafc;
+    --border: #273048;
+    --input: #1f273b;
+    --ring: #7c3aed;
+    --sidebar-background: #0f172a;
+    --sidebar-foreground: #f1f5f9;
+    --sidebar-primary: #7c3aed;
+    --sidebar-primary-foreground: #f8fafc;
+    --sidebar-accent: #00f2ff;
+    --sidebar-accent-foreground: #0f172a;
+    --sidebar-border: #273048;
+    --sidebar-ring: #7c3aed;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    @apply overflow-x-auto whitespace-pre;
+  }
+}
