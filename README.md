@@ -70,9 +70,9 @@ I am a **Full-Stack Developer** with 3 years of experience and a background in *
 
 ## 📫 Get in Touch
 
-- **Twitter:** [@YourHandle](https://x.com/elvis_ologeh)
+- **Twitter:** [@elvis_ologeh](https://x.com/elvis_ologeh)
 - **Email:** ologehelvis@gmail.com
-- **LinkedIn:** [/in/yourprofile](https://www.linkedin.com/in/elvis-ologeh-73bb0336a/)
+- **LinkedIn:** [/in/elvis-ologeh](https://www.linkedin.com/in/elvis-ologeh-73bb0336a/)
 
 <div align="center">
   <sub>Built with ❤️ by ElvistheSaint. Check out the code and leave a ⭐ if you like it!</sub>
