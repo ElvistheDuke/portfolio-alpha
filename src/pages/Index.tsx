@@ -156,8 +156,8 @@ export default function Index() {
           transition={{ duration: 0.8 }}
           className="text-center max-w-4xl mx-auto"
         >
-          <h1 className="text-2xl sm:text-3xl font-semibold  ">
-            Hi, I'm Elvis 👋
+          <h1 className="text-2xl sm:text-3xl font-semibold flex items-center justify-center gap-2 mb-4 ">
+            Hi, I'm Elvis <p className="text-secondary">(ElvistheSaint)</p> 👋
           </h1>
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent">
             Full-Stack Web Developer

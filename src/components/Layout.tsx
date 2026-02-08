@@ -112,7 +112,7 @@ export default function Layout({ children }: LayoutProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="font-bold text-lg mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Portfolio
+                ElvistheSaint Portfolio
               </h3>
               <p className="text-muted-foreground text-sm">
                 Full-Stack Developer specializing in scalable SaaS and
@@ -140,17 +140,26 @@ export default function Layout({ children }: LayoutProps) {
               <h4 className="font-semibold mb-4 text-foreground">Connect</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors">
+                  <a
+                    href="https://github.com/ElvistheDuke"
+                    className="hover:text-primary transition-colors"
+                  >
                     GitHub
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors">
+                  <a
+                    href="https://www.linkedin.com/in/elvis-ologeh-73bb0336a/"
+                    className="hover:text-primary transition-colors"
+                  >
                     LinkedIn
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors">
+                  <a
+                    href="https://x.com/elvis_ologeh"
+                    className="hover:text-primary transition-colors"
+                  >
                     Twitter
                   </a>
                 </li>
@@ -159,7 +168,7 @@ export default function Layout({ children }: LayoutProps) {
           </div>
           <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center">
             <p className="text-xs text-muted-foreground">
-              © 2024 Portfolio. All rights reserved.
+              © 2026 Portfolio. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground mt-4 sm:mt-0">
               Built with React, TypeScript, and TailwindCSS
