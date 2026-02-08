@@ -1,73 +1,79 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Full-Stack Developer & Geospatial Engineer
 
-Currently, two official plugins are available:
+**Building scalable SaaS solutions and visualizing the world through data.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-## React Compiler
+[Explore Portfolio Website](#) • [View Projects](#-featured-projects) • [Contact Me](#-get-in-touch)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 👨‍💻 About Me
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+I am a **Full-Stack Developer** with 3 years of experience and a background in **Surveying and Geo-informatics**. I specialize in bridging the gap between complex backend logic and intuitive, data-rich frontend experiences.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 🔭 **Currently building:** [boosta](https://github.com), a multi-tenant e-commerce SaaS.
+- 🌍 **Specialization:** Geospatial Analysis and GIS-integrated web apps.
+- ⚡ **Fun Fact:** I’m a high-scorer in Block Blast when I’m not debugging.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### **Frontend & Backend**
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+`JavaScript (ES6+)` `TypeScript` `React` `Next.js` `Node.js` `Express` `PostgreSQL`
+
+### **Geospatial & Tools**
+
+`GIS Analysis` `Leaflet/Mapbox` `Python` `Git` `Vercel`
+
+---
+
+## 🌟 Featured Projects
+
+### 🏗️ [Boosta](https://github.com)
+
+**A Multi-tenant E-commerce Platform.** A scalable SaaS solution allowing users to launch stores instantly.
+
+- **Tech:** Next.js, Node.js, Express, PostgreSQL.
+- **Key Feature:** Implemented complex database multi-tenancy and dynamic routing.
+
+### 📍 [OAU ChowFinder](https://github.com)
+
+**Campus Food Discovery App.** Helping students navigate and discover food vendors across the OAU campus.
+
+- **Tech:** React, Tailwind CSS, Map Integration.
+
+### 🗺️ [Terraplie](https://github.com)
+
+**Fitness and Food Delivery app** Personalized Nutrition & Healthy Meals Platform
+
+- **Focus:** Delivereing a functional platform that personalizes healthy eating and educates users on better nutrition choices.
+
+---
+
+## 📈 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=ElvistheDuke&show_icons=true&theme=tokyonight" alt="Your GitHub Stats" />
+</p>
+
+---
+
+## 📫 Get in Touch
+
+- **Twitter:** [@YourHandle](https://x.com/elvis_ologeh)
+- **Email:** ologehelvis@gmail.com
+- **LinkedIn:** [/in/yourprofile](https://www.linkedin.com/in/elvis-ologeh-73bb0336a/)
+
+<div align="center">
+  <sub>Built with ❤️ by ElvistheSaint. Check out the code and leave a ⭐ if you like it!</sub>
+</div>
