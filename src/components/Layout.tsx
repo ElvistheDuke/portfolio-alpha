@@ -32,7 +32,7 @@ export default function Layout({ children }: LayoutProps) {
               to="/"
               className="text-xl font-bold bg-secondary to-secondary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
             >
-              ElvistheSaint
+              Elvis Ologeh
             </Link>
 
             {/* Desktop Navigation */}
