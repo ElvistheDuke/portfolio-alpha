@@ -31,7 +31,7 @@ const projectsData: Record<string, ProjectData> = {
     title: "StoreFlex (boosta)",
     subtitle: "Multi-Tenant E-Commerce SaaS",
     shortDescription:
-      "A production-ready SaaS platform enabling 500+ independent e-commerce stores with complete operational autonomy.",
+      "A production-ready SaaS platform enabling Independent e-commerce stores to have complete operational autonomy.",
     problem:
       "E-commerce entrepreneurs faced high barriers to entry. Building their own store required significant technical expertise and infrastructure investment.",
     problemDetails: [
@@ -46,21 +46,21 @@ const projectsData: Record<string, ProjectData> = {
     actionDetails: [
       "Implemented row-level security (RLS) policies for tenant isolation",
       "Created subdomain routing middleware for seamless store access",
-      "Integrated Stripe for multi-tenant payment processing",
+      "Integrated Paystack for multi-tenant payment processing",
       "Built comprehensive admin dashboard for store management",
       "Implemented real-time inventory sync across stores",
       "Created automated backup and disaster recovery systems",
     ],
     result:
-      "Successfully launched the platform supporting 500+ independent stores generating $2M+ in annual GMV.",
+      "We have a platform we plan to launch to support independent stores in generating Revenue.",
     resultDetails: [
-      "Platform scaled to 500+ active stores in first year",
+      "Platform can scale to 100+ active stores in",
       "99.9% uptime with automated monitoring",
       "Average store gross margin of 35%+",
       "Reduced time-to-market for new stores from weeks to hours",
     ],
     resultMetrics: [
-      { label: "Active Stores", value: "500+" },
+      { label: "Intended Stores Count", value: "500+" },
       { label: "Annual GMV", value: "$2M+" },
       { label: "Uptime", value: "99.9%" },
       { label: "Support Response", value: "<1 hour" },
@@ -68,9 +68,10 @@ const projectsData: Record<string, ProjectData> = {
     technologies: [
       "Next.js",
       "TypeScript",
+      "Express",
       "PostgreSQL",
       "Prisma",
-      "Stripe API",
+      "Paystck API",
       "AWS Lambda",
       "Redis",
     ],
@@ -107,23 +108,23 @@ const projectsData: Record<string, ProjectData> = {
       "Created a mobile-first platform with real-time availability tracking and community-driven reviews.",
     actionDetails: [
       "Built React frontend with Google Maps integration",
-      "Implemented real-time vendor status updates via Socket.io",
+      "Implemented real-time vendor status updates",
       "Created community review system with reputation scoring",
-      "Built vendor management dashboard for menu updates",
+      "Built admin management dashboard for menu updates",
       "Integrated push notifications for special offers",
       "Implemented advanced search and filtering",
     ],
     result:
-      "Launched successful platform with 5000+ active users on campus, becoming the go-to resource for food discovery.",
+      "Launched successful platform with active users on campus, becoming the go-to resource for food discovery.",
     resultDetails: [
-      "5000+ monthly active users",
-      "10,000+ reviews and ratings",
+      "100+ monthly active users",
+      "1,000+ reviews and ratings",
       "90% vendor participation",
       "4.8/5 average app rating",
     ],
     resultMetrics: [
-      { label: "Active Users", value: "5000+" },
-      { label: "Community Reviews", value: "10,000+" },
+      { label: "Active Users", value: "100+" },
+      { label: "Community Reviews", value: "1,000+" },
       { label: "App Rating", value: "4.8/5" },
       { label: "Daily Active Users", value: "1200+" },
     ],
@@ -134,9 +135,10 @@ const projectsData: Record<string, ProjectData> = {
       "Google Maps API",
       "Socket.io",
       "Firebase",
+      "Leafletjs",
     ],
     challenge:
-      "Managing real-time synchronization of vendor updates across thousands of concurrent users required careful implementation of WebSocket connections and caching strategies.",
+      "Getting the data of each restaurant required careful coordination with vendors and implementation of a robust data ingestion pipeline.",
     lessonLearned:
       "Community engagement is just as important as the technology. Early vendor adoption was crucial to platform success.",
     keyFeatures: [
@@ -166,7 +168,7 @@ const projectsData: Record<string, ProjectData> = {
       "Designed and built a personalized nutrition platform combining onboarding assessments, meal planning, and health-conscious food education.",
     actionDetails: [
       "Built a detailed onboarding system to capture user health data",
-      "Implemented personalized meal recommendations based on lifestyle",
+      "Implemented personalized meal planning based on lifestyle",
       "Integrated allergy, spice level, and food preference filtering",
       "Created a scalable backend for user data and meal plans",
       "Designed clean, intuitive UI for health-focused users",
